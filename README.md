@@ -2,6 +2,10 @@
 
 A responsive Age Calculator built with HTML, CSS, and JavaScript.
 
+## Live Demo
+
+Try the live version here: [https://mdmohsinhaider.github.io/Age-Calculator/](https://mdmohsinhaider.github.io/Age-Calculator/)
+
 ## Features
 
 - Select date, month, year, hour, and minute for birth and current date.
@@ -30,4 +34,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Author
 
-Md Mohsin Haider
+md mohsin haider  
+[https://mdmohsinhaider.github.io/Age-Calculator/](https://mdmohsinhaider.github.io/Age-Calculator/)
