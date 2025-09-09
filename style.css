@@ -4,7 +4,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    }
+    /* font-size: xx-large; */
+    background-image: url('https://img.freepik.com/free-photo/top-view-notebooks-calculator_23-2149103982.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 
     body {
     min-height: 100vh;
@@ -14,7 +21,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #f5f2ff;
+    /* background: #feffff73; */
     }
 
     .container {
@@ -28,7 +35,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #fff;
+    /* background: #fff; */
     padding: 0;
     margin: 0;
     border-radius: 0;
@@ -36,17 +43,19 @@
     }
 
     .card {
-    width: 90vw;
-    /* max-width: 600px; */
+    width: 100vw;
+    max-width: 600px;
     background: #fafafa;
     border: 1px solid #a38fff;
     border-radius: 8px;
     padding: 20px 14px;
     box-sizing: border-box;
     margin-bottom: 18px;
+    font-size: large;
     }
 
     .inputs {
+    font-size: 55px;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -57,7 +66,7 @@
     .inputs label {
     font-weight: bold;
     min-width: 80px;
-    font-size: 15px;
+    font-size: 20px;
     }
     .inputs select {
     min-width: 44px;
@@ -87,18 +96,18 @@
 
     .result-panel {
     width: 90vw;
-    max-width: 600px;
-    font-size: 18px;
-    background: #faf6ff;
+    /* max-width: 900px; */
+    font-size: 28px;
+    background: #ffffff;
     padding: 18px;
-    border-radius: 8px;
-    border: 1px solid #a38fff;
+    border-radius: 10px;
+    border: 1px solid #80ffc4;
     color: #222;
     margin-top: 8px;
     word-break: break-word;
     }
     .result-panel b {
-    color: #9400d3;
+    color: #850101;
     }
     .result-panel span {
     color: #2e008b;
